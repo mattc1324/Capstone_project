@@ -1,0 +1,24 @@
+Introduction/Business Problem
+
+This project will work to determine the likely severity of a car accident. The project will work using modelling of previous data to analyse the risk factors which lead to variable severity of accidents. This will include natural factors such as weather conditions, allowing the driver/ artificial intelligence controlling the vehicle to prepare for the changing conditions.
+
+Data
+
+The data used in this project relies on previous statistics recorded by Seattle City, which records the variables within historic accidents, the vehicle or vehicles involved and the conditions during the incident.
+
+Methodology
+By splitting the master dataset into columns we care about and removing blank rows we can make this bulk data set into a more refined set. 
+We can then split this data into severe incidents and minor incidents, and then compare the conditions prior to each event. 
+By graphically displaying these datasets as normalised percentages of incidents we can visually determine the findings. 
+Results 
+The visual representation of the statistics in a graphical form was a really useful way to display the results and make sound analytical judgement based on the data available 
+The plots clearly displayed no evidence to support the conclusion that severity of incident was dependent on the weather, light or road conditions. 
+Unfortunately the dependent variable did not have the scale of events desired to gain a greater spectrum of incidents and their likely causes, and therefore I am not content with completely ruling out severity of incident based on conditions. It would be interesting to investigate the likelihood of an incident based on these conditions - for example, during a bad snow storm not many people will go out in their cars, but of those that do, I predict the likelihood and risk factor is increased for severe incidents. This would be the ideal dataset to approach this problem, but is naturally very hard to gain statistical data on the number of drivers at any given hour. 
+
+
+Discussion
+The visual representation of the statistics in a graphical form was a really useful way to display the results and make sound analytical judgement based on the data available 
+The plots clearly displayed no evidence to support the conclusion that severity of incident was dependent on the weather, light or road conditions. 
+Unfortunately the dependent variable did not have the scale of events desired to gain a greater spectrum of incidents and their likely causes, and therefore I am not content with completely ruling out severity of incident based on conditions. It would be interesting to investigate the likelihood of an incident based on these conditions - for example, during a bad snow storm not many people will go out in their cars, but of those that do, I predict the likelihood and risk factor is increased for severe incidents. This would be the ideal dataset to approach this problem, but is naturally very hard to gain statistical data on the number of drivers at any given hour. 
+Conclusion
+From the data available there is no correlation between road, weather or light conditions and severity of incident. Most incidents occurred in optimum conditions, however I predict this is due to the number of vehicles and pedestrians/cyclists on the road during these times. 
